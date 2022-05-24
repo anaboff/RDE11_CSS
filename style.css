@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color:fuchsia;
+    font-family:"Verdana, Geneva, Tahoma, sans-serif";
+}
+h1 {
+    color:purple; 
+    font-size: 28px;
+}
+h2 {
+    color:purple; 
+    font-size: 26px; 
+}
+h3 {
+    background-color: rgb(225, 255, 0);
+    color:rgb(135, 43, 135); 
+    font-size: 24px;
+}
+h4 {
+    background-color: aqua;
+    color:rgb(131, 55, 131); 
+    font-size: 22px;
+}
+p {
+    background-color:blue;
+    text-align: justify; 
+    font-size: 18px;
+}

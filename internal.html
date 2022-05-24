@@ -5,37 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-    
+    <style>
+        body {
+            background-color:fuchsia;
+            font-family:"Verdana, Geneva, Tahoma, sans-serif";
+        }
+        h1 {
+            color:purple; 
+            font-size: 28px;
+        }
+        h2 {
+            color:purple; 
+            font-size: 26px; 
+        }
+        h3 {
+            color:rgb(135, 43, 135); 
+            font-size: 24px;
+        }
+        h4 {
+            color:rgb(131, 55, 131); 
+            font-size: 22px;
+        }
+        p {
+            background-color:magenta;
+            style="text-align: justify; font-size: 18px;"
+        }
+    </style>
 </head>
-<body style="background-color:fuchsia; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    <p style="color:purple; font-size: 28px;">Cascading Style Sheets - CSS</p>
-    <p style="color:purple; font-size: 26px;">Este documento esta editado de forma internal</p>
+<body>
+    <h1>Cascading Style Sheets - CSS</h1>
+    <h2>Este documento esta editado de forma internal</h2>
 
-    <p style="color:rgb(135, 43, 135); font-size: 24px;">Definição</p>
-    <p style="text-align: justify; font-size: 18px;">Cascading Style Sheets - Folhas de Estilo em Cascata - tem por objetivo realizar a estilização de conteúdo de documentos HTML. <br>Podem definir cores, fontes, espaçamento, alinhamentos, bordas dentre outros.</p>
+    <h3>Definição</h3>
+    <p>Cascading Style Sheets - Folhas de Estilo em Cascata - tem por objetivo realizar a estilização de conteúdo de documentos HTML. <br>Podem definir cores, fontes, espaçamento, alinhamentos, bordas dentre outros.</p>
     
-    <p style="color:rgb(135, 43, 135); font-size: 24px;">Componentes</p>
-    <p style="text-align: justify; font-size: 18px;"><ul style="font-size: 18px;">
+    <h3>Componentes</h3>
+    <p>
         <li>Seletores - seleciona elementos HTML com base no nome do elemento ao qual o estilo será aplicado;</li>
         <li>Propriedades - o aspecto específico do elemento que você quer usar como estilo;</li>
         <li>Valores - a configuração aplicada ao atributo.</li>
     </ul>
     </p>
     
-    <p style="color:rgb(135, 43, 135); font-size: 24px;">Formas de utilização</p>
+    <h3>Formas de utilização</h3>
 
-    <p style="color:rgb(131, 55, 131); font-size: 22px;">Inline</p>
-    <p style="text-align: justify; font-size: 18px;">Os código CSS são definidos dentro de uma tag HTML.
+    <h4>Inline</h4>
+    <p>Os código CSS são definidos dentro de uma tag HTML.
     <br>Afetam somente a tag em que foi definida.
     </p>
     
-    <p style="color:rgb(131, 55, 131); font-size: 22px;">Incorporado ou Internal</p>
-    <p style="text-align: justify; font-size: 18px;">Os código CSS são definidos no cabeçalho, dentro da tag head.
+    <h4>Incorporado ou Internal</h4>
+    <p>Os código CSS são definidos no cabeçalho, dentro da tag head.
     <br>Afetam somente o documento em que foi definido.
     </p>
     
-    <p style="color:rgb(131, 55, 131); font-size: 22px;">Externo ou External</p>
-    <p style="text-align: justify; font-size: 18px;">Os código CSS são definidos em um arquivo externo.
+    <h4>Externo ou External</h4>
+    <p>Os código CSS são definidos em um arquivo externo.
     <br>Afetam todos os documentos que estão linkados ao CSS.
     </p>
 </body>
